@@ -9,6 +9,10 @@ document.getElementById("minus").onclick = function () {
   if (count < 0) {
     document.getElementById("show").style.color = "red";
   }
+  if(count == 0)
+  {
+    document.getElementById("show").style.color = "gray";
+  }
 };
 
 document.getElementById("plus").onclick = function () {
@@ -19,6 +23,10 @@ document.getElementById("plus").onclick = function () {
   }
   if (count < 0) {
     document.getElementById("show").style.color = "red";
+  }
+  if(count == 0)
+  {
+    document.getElementById("show").style.color = "gray";
   }
 };
 
